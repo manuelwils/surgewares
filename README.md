@@ -4,4 +4,4 @@ Surgewares Technologies Limited is a dynamic tech company at the forefront of in
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Surgewares is open-sourced project licensed under the [MIT license](https://opensource.org/licenses/MIT).
