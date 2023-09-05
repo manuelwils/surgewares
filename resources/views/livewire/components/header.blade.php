@@ -11,9 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="canonical" href="{{ env('APP_URL') }}">
         <!-- this will add webcomponent polyfills based on browsers. As of 04/29/21 still needed for IE11 and Safari -->
-        <script src="{{ asset('assets/js/webcomponents-loader.js') }}"></script>
+        {{-- <script src="{{ asset('assets/js/webcomponents-loader.js') }}"></script> --}}
         <script src="{{ asset('assets/js/all.min.js') }}" async></script>
-        <script src="{{ asset('assets/js/flickity.pkgd.min.js') }}" async></script>
+        {{-- <script src="{{ asset('assets/js/flickity.pkgd.min.js') }}" async></script> --}}
         
         <style>
             :root {
@@ -55,8 +55,5 @@
                 padding: 0px 10px; 
             }
         </style>
-        @livewireStyles
-        
-        {{-- <meta name="turbolinks-cache-control" content="no-cache" /> --}}
     </head>
 </div>
