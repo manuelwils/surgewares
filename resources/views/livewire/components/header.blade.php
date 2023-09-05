@@ -5,17 +5,10 @@
         <meta property="og:url" content="{{ env('APP_URL') }}">
         <meta property="og:site_name" content="{{ env('APP_FULL_NAME') }}">
         <meta property="og:type" content="website">
-        <meta name="twitter:card" content="summary_large_image"/>
-        <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('assets/css/flickity.min.css') }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="canonical" href="{{ env('APP_URL') }}">
-        <!-- this will add webcomponent polyfills based on browsers. As of 04/29/21 still needed for IE11 and Safari -->
-        {{-- <script src="{{ asset('assets/js/webcomponents-loader.js') }}"></script> --}}
-        <script src="{{ asset('assets/js/all.min.js') }}" async></script>
-        {{-- <script src="{{ asset('assets/js/flickity.pkgd.min.js') }}" async></script> --}}
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         
-        <style>
+        <style data-navigate-once>
             :root {
                 --font-1: "Google Sans Display";
                 --color-gray: #dddddd;
@@ -55,5 +48,6 @@
                 padding: 0px 10px; 
             }
         </style>
+        <link rel="stylesheet" href="{{ asset('assets/css/all.min.css') }}">
     </head>
 </div>

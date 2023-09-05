@@ -15,10 +15,10 @@
             <bsp-rich-more class="RichTextModule ShortText" data-module>
                 <div class="RichTextModule-shortItems RichTextBody">
                     <p>I hope this note finds you well. I wanted to take a moment to share my excitement and admiration for a remarkable company that is making significant strides in the tech industry - Surgewares Technologies Limited.</p>
-                    <span class="more-button">more</span>
+                    <span class="more-button" onclick="document.getElementById('RichTextModule-items').classList.remove('RichTextModule-items');this.style.display='none'">more</span>
                 </div>
-                <div class="RichTextModule-items RichTextBody">
-
+                <div class="RichTextModule-items RichTextBody" id="RichTextModule-items">
+                    <br>
                     <p>In an era defined by rapid technological advancements, Surgewares Technologies Limited has emerged as a beacon of innovation and progress. Our commitment to enhancing lives and shaping a better world through our revolutionary solutions and products is truly commendable.</p>
 
                     <p>From its inception, Surgewares Technologies Limited has exemplified the spirit of innovation. Our journey from an infant startup to a fast-growing tech startup company is a testament to our unwavering dedication and visionary approach. What sets us apart is not just our technological prowess, but our genuine desire to create a positive impact on society.</p>

@@ -11,8 +11,6 @@
         
         @livewire('components.footer')
 
-        
-
     </body>
 
 </html>
