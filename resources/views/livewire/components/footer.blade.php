@@ -12,28 +12,28 @@
                         <li class="FooterNavigation-items-item">
                             <div class="FooterNavigationItem">
                                 <div class="FooterNavigationItem-text">
-                                    <a href="https://policies.google.com/privacy" target="_blank" data-cms-ai="0">Privacy</a>
+                                    <a href="{{ route(\App\Http\Controllers\RoutesController::$privacy) }}" wire:navigate data-cms-ai="0">Privacy</a>
                                 </div>
                             </div>
                         </li>
                         <li class="FooterNavigation-items-item">
                             <div class="FooterNavigationItem">
                                 <div class="FooterNavigationItem-text">
-                                    <a href="https://policies.google.com/terms" target="_blank" data-cms-ai="0">Terms</a>
+                                    <a href="{{ route(\App\Http\Controllers\RoutesController::$terms) }}" wire:navigate data-cms-ai="0">Terms</a>
                                 </div>
                             </div>
                         </li>
                         <li class="FooterNavigation-items-item">
                             <div class="FooterNavigationItem">
                                 <div class="FooterNavigationItem-text">
-                                    <a href="https://about.google/" target="_blank" data-cms-ai="0">About Surgewares</a>
+                                    <a href="{{ route(\App\Http\Controllers\RoutesController::$about) }}" wire:navigate data-cms-ai="0">About Surgewares</a>
                                 </div>
                             </div>
                         </li>
                         <li class="FooterNavigation-items-item">
                             <div class="FooterNavigationItem">
                                 <div class="FooterNavigationItem-text">
-                                    <a href="{{ route(\App\Http\Controllers\RoutesController::$products) }}" target="_blank" data-cms-ai="0">Surgewares Products</a>
+                                    <a href="{{ route(\App\Http\Controllers\RoutesController::$products) }}" wire:navigate data-cms-ai="0">Surgewares Products</a>
                                 </div>
                             </div>
                         </li>

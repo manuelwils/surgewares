@@ -8,4 +8,5 @@ class RoutesController extends Controller
     public static $about = '/about';
     public static $products = '/products';
     public static $privacy = '/privacy';
+    public static $terms = '/terms';
 }

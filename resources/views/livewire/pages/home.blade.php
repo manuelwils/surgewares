@@ -41,7 +41,7 @@
                     <div class="Enhancement"  data-align-portrait-left>
                         <div class="Enhancement-item">
                             <figure class="Figure">
-                                RC: 0000000
+                                RC: 7123721
                                 <div class="Figure-content">
                                     <figcaption class="Figure-caption">
                                         <p>Manuelwils</p>
