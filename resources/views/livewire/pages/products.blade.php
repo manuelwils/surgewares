@@ -20,16 +20,28 @@
             <h6 class="see-all"></h6>
             <div class="flex-div">
                 <div class="flex">
-                    <a href="https://safedrops.co">
-                        Safedrops
+                    <a target="_blank" class="text-primary" href="https://safedrops.co">
+                        SafeDrops
                     </a>
                 </div>
                 <div class="flex">
-                    <a href="https://darawave.com">
-                        Darawave
+                    <a target="_blank" class="text-primary" href="https://manuewils.com/ScrapyDaemon.exe">
+                        ScrapyDaemon
                     </a>
                 </div>
             </div>
+            {{-- <div class="flex-div" style="margin-top: 10px">
+                <div class="flex">
+                    <a target="_blank" class="text-primary" href="https://youtube.com/manuelwils">
+                        ManuelWils
+                    </a>
+                </div>
+                <div class="flex">
+                    <a target="_blank" class="text-primary" href="https://darawave.com">
+                        DaraWave
+                    </a>
+                </div>
+            </div> --}}
         </div>
     </div>
     <div class="Homepage-backgroundImage" style="margin-top: -80px;">
