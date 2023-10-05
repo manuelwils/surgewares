@@ -29,7 +29,7 @@
         <!-- Page Title -->
         <title>{{ $title ?? "Surgewares Technologies Limited - Innovating for a Brighter Future" }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-        
+
         <style data-navigate-once>
             :root {
                 --font-1: "Google Sans Display";
